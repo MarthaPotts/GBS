@@ -16,14 +16,22 @@ function App() {
     <div className="App">
       <Nav />
       <Header />
+
       <SearchForm />
-      <Input />
-      <SearchBtn />
-      <DisplayResult />
-      <ListItem />
       <ViewBtn />
       <SaveBtn />
+      <Input />
+      <SearchBtn />
+
+      <DisplayResult />
+      <ListItem />
+      
+      <h3 className='saved'>Saved Books</h3>
+      <ViewBtn />
       <DeleteBtn />
+      <DisplayResult />
+      <ListItem />
+      
       
       
     </div>
