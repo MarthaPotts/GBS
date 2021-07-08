@@ -9,6 +9,7 @@ import DisplayResult from './components/SearchResult/DisplayResult';
 import ListItem from './components/SearchResult/ListItem';
 import ViewBtn from './components/ViewBtn/ViewBtn';
 import SaveBtn from './components/SaveBtn/SaveBtn';
+import DeleteBtn from './components/DeleteBtn/DeleteBtn';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <ListItem />
       <ViewBtn />
       <SaveBtn />
+      <DeleteBtn />
       
       
     </div>
