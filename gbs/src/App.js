@@ -7,6 +7,7 @@ import Input from '../src/components/SearchForm/Input';
 import SearchBtn from './components/SearchForm/SearchBtn'; 
 import DisplayResult from './components/SearchResult/DisplayResult';
 import ListItem from './components/SearchResult/ListItem';
+import ViewBtn from './components/ViewBtn/ViewBtn';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <SearchBtn />
       <DisplayResult />
       <ListItem />
+      <ViewBtn />
+      
       
     </div>
   );
